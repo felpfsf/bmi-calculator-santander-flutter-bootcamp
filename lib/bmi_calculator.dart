@@ -40,7 +40,6 @@ void execute() {
       print("Invalid input: ${e.toString()}");
       return;
     }
-    // person.checkBMI(weight, height)
     print("\n$personName ${person.checkBMI(weight, height)}");
   }
 }
