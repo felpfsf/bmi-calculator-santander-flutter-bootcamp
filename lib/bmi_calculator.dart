@@ -18,7 +18,7 @@ void execute() {
 
     try {
       String heightInput =
-          Utils.readUserInput("Type your height(in meters) => ")!;
+          Utils.readUserInput("Type your height(in meters) => ");
       if (heightInput == 'exit') {
         break;
       }
@@ -27,7 +27,7 @@ void execute() {
         throw FormatException("Height must be greater than zero");
       }
 
-      String weightInput = Utils.readUserInput("Type your weight(in kg) => ")!;
+      String weightInput = Utils.readUserInput("Type your weight(in kg) => ");
       if (weightInput == 'exit') {
         break;
       }
